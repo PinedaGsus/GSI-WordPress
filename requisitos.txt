@@ -4,8 +4,9 @@ O---> Dar el salto a la venta online
 RN--> para realizar una compra hay que estar registrado como cliente
 RN--> Para subir articulos de venta hay que estar registrado como dependiente
 RN--> via online no se admiten devoluciones
+RN--> Para poder comprar se requiere ser mayor de 16 años
 
-RInfo--> Recoger informacion de los clientes de los clientes para que se les muestren recomendaciones de sus compras
+RInfo--> Recoger informacion de los clientes para que se les muestren recomendaciones de sus compras
 RI/RInfo--> EL menu principal debe estar dividido en: Noticias, Catalogo, Donde encontrarnos y quienes somos, tienda online
 RI-->tener la barra de menus horizontal en la parte superior
 RI--> El tema de la pagina web sera similar al de la tienda fisica
