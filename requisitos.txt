@@ -9,15 +9,17 @@ RN--> Para poder comprar se requiere ser mayor de 16 años
 
 RInfo--> Recoger informacion de los clientes para que se les muestren recomendaciones de sus compras. Para cada cliente,
 	el sistema almacenará: nombre y apellidos, dirección, historial de compras.
-RI/RInfo--> EL menu principal debe estar dividido en: Noticias, Catalogo, Donde encontrarnos y quienes somos, tienda online
+RInfo--> EL menu principal debe estar dividido en: Noticias, Catalogo, Donde encontrarnos y quienes somos, tienda online
+RInfo--> para cada producto que se muestre: nombre, precio, disponibilidad, foto, tallas, categoria
+
 RI-->tener la barra de menus horizontal en la parte superior
 RI--> El tema de la pagina web sera similar al de la tienda fisica
 RI--> slider con las ultimos productos destacados
-RI/RF--> la web debera contar con un sistema de login y registro
-RI/RF--> la web debera contener la posibilidad de compartir el contenido en redes sociales
-RInfo--> la web debe monitorizar el numero de articulos vendidos
-RI/RInfo--> para cada producto que se muestre: nombre, precio, disponibilidad, foto, tallas, categoria
-RI/RInfo--> Tanto en el catalogo como en la tienda se podra buscar por diferentes categorias
+
+RF--> la web debera contar con un sistema de login y registro
+RF--> la web debera contener la posibilidad de compartir el contenido en redes sociales
+RF--> la web debe monitorizar el numero de articulos vendidos
+RF--> Tanto en el catalogo como en la tienda se podra buscar por diferentes categorias
 
 RNF--> La pagina web estara hosteada de manera gratuita
 
