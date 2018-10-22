@@ -9,7 +9,7 @@ RN--> Para poder comprar se requiere ser mayor de 16 años
 
 RInfo--> Recoger informacion de los clientes para que se les muestren recomendaciones de sus compras. Para cada cliente,
 	el sistema almacenará: nombre y apellidos, dirección, historial de compras.
-RInfo--> EL menu principal debe estar dividido en: Noticias, Catalogo, Donde encontrarnos y quienes somos, tienda online
+RInfo--> EL menu principal debe estar dividido en: Home, Noticias, Catalogo, Mi Cuenta, Información.
 RInfo--> para cada producto que se muestre: nombre, precio, disponibilidad, foto, tallas, categoria
 
 RI-->tener la barra de menus horizontal en la parte superior
