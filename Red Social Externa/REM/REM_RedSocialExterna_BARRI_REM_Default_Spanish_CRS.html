@@ -689,14 +689,8 @@ datos específicos de los usuarios con el rol "dependiente".
 <a name="DAT-0016" />
 Nombre y apellidos</li>
 <li>
-<a name="DAT-0017" />
-Dirección</li>
-<li>
-<a name="DAT-0018" />
-Teléfono </li>
-<li>
 <a name="DAT-0019" />
-Sexo</li>
+Correo electrónico</li>
 </ul>
 </td>
 </tr>
@@ -805,19 +799,7 @@ datos específicos de los usuarios con el rol "cliente".
 Nombre y apellidos</li>
 <li>
 <a name="DAT-0022" />
-Dirección</li>
-<li>
-<a name="DAT-0023" />
-Teléfono</li>
-<li>
-<a name="DAT-0024" />
-Sexo</li>
-<li>
-<a name="DAT-0025" />
-Estilo de vestir</li>
-<li>
-<a name="DAT-0026" />
-Fecha de nacimiento</li>
+Correo electrónico</li>
 </ul>
 </td>
 </tr>
@@ -925,17 +907,8 @@ datos específicos de los usuarios con el rol "personal de cursos".
 <a name="DAT-0027" />
 Nombre y apellidos</li>
 <li>
-<a name="DAT-0028" />
-Dirección</li>
-<li>
 <a name="DAT-0045" />
-Teléfono</li>
-<li>
-<a name="DAT-0046" />
-Sexo</li>
-<li>
-<a name="DAT-0047" />
-Fecha de finalización de contrato</li>
+Correo electrónico</li>
 </ul>
 </td>
 </tr>
@@ -1153,16 +1126,15 @@ los grupos asociados a los cursos de inglés.
 Descripción del curso</li>
 <li>
 <a name="DAT-0034" />
-Evento asociado al curso</li>
+Eventos asociados al curso</li>
 <li>
 <a name="DAT-0035" />
 Personal de cursos encargado del curso</li>
 <li>
-<a name="DAT-0036" />
-Si es de pago o no</li>
-<li>
-<a name="DAT-0037" />
-Archivos asociados al grupo</li>
+<a name="DAT-0050" />
+Noticias relacionadas con el grupo
+<br />
+</li>
 </ul>
 </td>
 </tr>
@@ -1273,9 +1245,6 @@ Descripción de la tienda</li>
 <a name="DAT-0042" />
 Eventos asociados a la tienda</li>
 <li>
-<a name="DAT-0043" />
-Archivos asociados al grupo</li>
-<li>
 <a name="DAT-0044" />
 Noticias relacionadas con el grupo</li>
 </ul>
@@ -1383,10 +1352,10 @@ los eventos, de dos tipos.
 <ul>
 <li>
 <a name="DAT-0048" />
-Eventos asociados con cursos, dónde, cuándo y quién los imparte</li>
+Eventos asociados con el curso, descripción del evento, dónde, cuándo y quién los imparte.</li>
 <li>
 <a name="DAT-0049" />
-Eventos asociados con la tienda, con una descripción del evento e información sobre dónde y cuándo se realiza</li>
+Eventos asociados con la tienda, con una descripción del evento e información sobre dónde y cuándo se realiza.</li>
 </ul>
 </td>
 </tr>
@@ -1483,7 +1452,7 @@ Crear grupos</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-permitir a los dependientes crear grupos para anunciar eventos y grupos asociados a la tienda</em>
+permitir a los dependientes crear grupos para cursos de inglés y grupos asociados a la tienda</em>
 </td>
 </tr>
 <tr>
@@ -1688,74 +1657,6 @@ Asistir a eventos de cursos</th>
     El sistema deberá 
 <em>
 permitir a cualquier usuario indicar que asistirán a los eventos de los cursos</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="1">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="FRQ-0005" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">FRQ-0005</th>
-<th align="left" valign="top" width="100%">
-Pago de clientes</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top">1.0 
-			( 24/11/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td align="left" valign="top">
-    El sistema deberá 
-<em>
-permitir a los clientes pagar los eventos de coste a través de la pasarela de pago asociada al grupo</em>
 </td>
 </tr>
 <tr>
@@ -2028,74 +1929,6 @@ Comentar noticias y dar me gusta</th>
     El sistema deberá 
 <em>
 permitir a cualquier usuario comentar las noticias de los grupos y darle a me gusta</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Importancia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Urgencia</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estado</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Estabilidad</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>PD</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="1">
-Ninguno</td>
-</tr>
-</table>
-<p />
-<a name="FRQ-0010" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">FRQ-0010</th>
-<th align="left" valign="top" width="100%">
-Subir archivos</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top">1.0 
-			( 24/11/2018 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Fuentes</th>
-<td align="left" valign="top" colspan="1">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td align="left" valign="top">
-    El sistema deberá 
-<em>
-permitir a los dependientes subir archivos asociados a los grupos, y cualquier usuario puede acceder a ellos</em>
 </td>
 </tr>
 <tr>
